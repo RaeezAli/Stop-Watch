@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stop-Watch-Section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFDD95;
+}
+
+.stop-Watch-Section .Stop-Watch {
+    width: 40%;
+    max-width: 500px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stop-Watch-Section .Stop-Watch .display {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+    padding: 35px;
+    font-weight: bold;
+    font-size: 35px;
+    color:  #3468C0;
+}
+
+.stop-Watch-Section .Stop-Watch .button-Section {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+}
+
+.start-Button, .pause-Button, .reset-Button {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-size: medium;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.start-Button {
+    color: #FFF;
+    background-color: #3468C0;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.pause-Button {
+    color: #FFF;
+    background-color: #D24545;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.reset-Button {
+    color: #FFF;
+    background-color: #FAEF5D;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.start-Button:hover {
+    cursor: pointer;
+    background-color: #0b357c;
+}
+
+.pause-Button:hover {
+    cursor: pointer;
+    background-color: #ad1616;
+}
+
+.reset-Button:hover {
+    cursor: pointer;
+    background-color: #d8cd2c;
+}
